@@ -13,4 +13,7 @@ Tech stack used:
 -Visualization platform:  Power BI.  
 
 Below is the finished star schema format once the new structure gets loaded into Power BI:
-Star Schema.PNG
+
+![GitHub Logo](/images/Star Schema.png)
+Format: ![Alt Text](url)
+

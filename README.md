@@ -14,6 +14,6 @@ Tech stack used:
 
 Below is the finished star schema format once the new structure gets loaded into Power BI:
 
-![GitHub Logo](/images/Star Schema.png)
-Format: ![Alt Text](url)
+![](Star Schema.png)
+
 

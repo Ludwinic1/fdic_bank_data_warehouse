@@ -14,6 +14,6 @@ Tech stack used:
 
 Below is the finished star schema format once the new structure gets loaded into Power BI:
 
-![](fdic_bank_data_warehouse/Star%20Schema.PNG)
+![](/Star%20Schema.PNG)
 
 

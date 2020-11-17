@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlalchemy as sa
 from sqlalchemy import create_engine
-SERVER = ***** # altered for security
+SERVER = ****** # altered for security
 DATABASE = ****** # altered for security
 DRIVER = *** # altered for security
 DATABASE_CONNECTION = f'mssql://@{SERVER}/{DATABASE}?driver={DRIVER}'

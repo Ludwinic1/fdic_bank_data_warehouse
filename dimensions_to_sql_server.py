@@ -144,4 +144,6 @@ ALTER TABLE dim_deposit_code ALTER COLUMN deposit_code_key INT NOT NULL
 connection.execute("""
 ALTER TABLE dim_deposit_code ADD PRIMARY KEY (deposit_code_key)""")
 
+connection.close()
+
 

@@ -129,6 +129,8 @@ ALTER TABLE fact_fdic
     ADD FOREIGN KEY (assets_key) REFERENCES dim_assets (assets_key);
 """)
 
+connection.close()
+
 
 
 

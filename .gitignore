@@ -2,3 +2,4 @@ __pychache__/
 venv/
 test.py
 git-pip.p
+project_env/

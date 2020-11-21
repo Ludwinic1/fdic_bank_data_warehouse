@@ -67,7 +67,7 @@ columns = [
 df_dictionary = {}
 for item in range(2016, 2021):
     df_dictionary["df_" + str(item)] = pd.read_csv(
-        "All_" + str(item) + ".csv",
+        "data/All_" + str(item) + ".csv",
         encoding="Latin-1",
         usecols=lambda x: x.upper() in columns,
     )

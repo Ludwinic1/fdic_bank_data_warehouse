@@ -1,7 +1,17 @@
 from sql_server_connection import engine
 import sqlalchemy as sa
-from create_dimensions import dim_branch, dim_bank, dim_area_population, \
-dim_location, dim_assets, dim_date, dim_charter, dim_fdic, dim_currency, dim_deposit_code
+from create_dimensions import ( 
+       dim_branch, 
+       dim_bank, 
+       dim_area_population,
+       dim_location,
+       dim_assets,
+       dim_date,
+       dim_charter,
+       dim_fdic,
+       dim_currency,
+       dim_deposit_code,
+)
 
 with engine.connect() as connection:
        # creating the dimension SQL Server tables and sending the data to SQL Server:

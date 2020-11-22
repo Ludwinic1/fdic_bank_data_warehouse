@@ -13,7 +13,7 @@ Python script builds the star schema data warehouse from scratch and completes t
 
  # Tech Stack:
 - Programming languages:  Python and SQL.  Python packages/modules used:  Pandas and SQL Alchemy.
-- DBMS:  SQL Server.
+- RDBMS:  SQL Server.
 - Visualization platform:  Power BI.  
 
 # Instructions:

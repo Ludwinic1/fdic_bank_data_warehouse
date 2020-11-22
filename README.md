@@ -30,6 +30,13 @@ Python script builds the star schema data warehouse from scratch and completes t
 
 Below is the finished star schema design once the data is loaded into Power BI:
 
+![](/Star_Schema_Picture.PNG)
+
+
+
+
+
+
 ![](/Star_Schema2_Picture.PNG)
 
 

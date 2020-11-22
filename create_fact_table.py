@@ -49,11 +49,11 @@ fact_fdic = fact_fdic.merge(dim_currency, on=dim_currency_cols)
 fact_fdic.drop(columns=dim_currency_cols, inplace=True)
 
 col_list = [col for col in fact_fdic.columns] # renaming the duplicate columns
-col_list[3] = 'delete_this'
-col_list[4] = 'delete_this2'
+col_list[3] = "delete_this"
+col_list[4] = "delete_this2"
 fact_fdic.columns = col_list # renaming the columns
 fact_fdic.drop(
-    columns=['delete_this', 'delete_this2'], inplace=True
+    columns=["delete_this", "delete_this2"], inplace=True
 )   # drops the duplicate columns
 
 dim_area_population_cols = [column for column in dim_area_population.columns[1:]] 
@@ -67,25 +67,25 @@ fact_fdic.drop(columns=dim_deposit_code_cols, inplace=True)
 with engine.connect() as connection:
     # Creating the fact table in SQL Server and sending the data to SQL Server.  
     fact_fdic.to_sql(
-        'fact_fdic',
+        "fact_fdic",
         connection, 
         index=False, 
-        if_exists='replace',
+        if_exists="replace",
         dtype={
-            'branch_office_deposits': sa.BigInteger,
-            'total_assets': sa.BigInteger,
-            'total_domestic_deposits': sa.BigInteger,
-            'total_deposits': sa.BigInteger,
-            'branch_key': sa.INTEGER,
-            'bank_key': sa.INTEGER,
-            'location_key': sa.INTEGER,
-            'date_key': sa.INTEGER,
-            'charter_key': sa.INTEGER,
-            'fdic_key': sa.INTEGER,
-            'currency_key': sa.INTEGER,
-            'area_population_key': sa.INTEGER,
-            'deposit_code_key': sa.INTEGER,
-            'assets_key': sa.INTEGER
+            "branch_office_deposits": sa.BigInteger,
+            "total_assets": sa.BigInteger,
+            "total_domestic_deposits": sa.BigInteger,
+            "total_deposits": sa.BigInteger,
+            "branch_key": sa.INTEGER,
+            "bank_key": sa.INTEGER,
+            "location_key": sa.INTEGER,
+            "date_key": sa.INTEGER,
+            "charter_key": sa.INTEGER,
+            "fdic_key": sa.INTEGER,
+            "currency_key": sa.INTEGER,
+            "area_population_key": sa.INTEGER,
+            "deposit_code_key": sa.INTEGER,
+            "assets_key": sa.INTEGER
         },
     )
 

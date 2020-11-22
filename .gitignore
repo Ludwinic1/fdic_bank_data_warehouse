@@ -1,6 +1,7 @@
-*__pychache_/
+__pychache_/
 venv/
 test.py
 get-pip.p
 project_env/
 .vscode
+*__pycache__*

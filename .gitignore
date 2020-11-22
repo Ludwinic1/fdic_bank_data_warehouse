@@ -4,4 +4,3 @@ test.py
 get-pip.p
 project_env/
 .vscode
-*__pycache__*

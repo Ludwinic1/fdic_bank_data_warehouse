@@ -20,7 +20,7 @@ Python script builds the star schema data warehouse from scratch and completes t
 1. Clone the repository locally.
 2. Install the requirements from the **requirements.txt** file
 3. Replace the variables **SERVER**, **DATABASE** and **DRIVER** in the sql_server_connection.py file to your local SQL Server connection (create a database in SQL Server first).
-3. Run the files in this order:
+4. Run the files in this order:
    1. sql_server_connection.py
    2. data_extraction.py
    3. create_dimensions.py
@@ -30,5 +30,11 @@ Python script builds the star schema data warehouse from scratch and completes t
 Below is the finished star schema design once the data is loaded into Power BI:
 
 ![](/Star%20Schema.PNG)
+
+
+
+
+test:
+![](/Star_Schema2_Picture.PNG)
 
 

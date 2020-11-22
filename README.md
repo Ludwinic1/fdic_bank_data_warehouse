@@ -3,7 +3,7 @@ Data Engineering project that builds an entire star schema data warehouse from s
 
 Python script builds the star schema data warehouse from scratch and completes the following:
 - Extracts data from several CSV files containing 5 years of FDIC (Federal Deposit Insurance Corporation) public banking data (**CSV files located in the data folder**) from thousands of banks across the country.
-- Combines and cleans the files including reducing the memory footprint significantly.
+- Combines and cleans the files including reducing the memory footprint significantly (around a 40%+ reduction). 
 - Creates all of the dimension tables and the fact table in order to form an OLAP star schema structure.  
 - Creates surrogate keys for every dimension table.
 - Loads the newly created tables into SQL Server (**creates the tables in SQL Server as well**) using the SQL Alchemy module.

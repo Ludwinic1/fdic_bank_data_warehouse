@@ -26,7 +26,7 @@ Python script builds the star schema data warehouse from scratch and completes t
    3. create_dimensions.py
    4. dimensions_to_sql_server.py
    5. create_fact_table.py
-   Optional:  Download Power BI and load the data and start creating visualizations.  
+   6. Optional:  Download Power BI and load the data and start creating visualizations.  
 
 Below is the finished star schema design once the data is loaded into Power BI:
 

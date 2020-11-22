@@ -1,5 +1,5 @@
 # fdic_bank_data_warehouse
-Data Engineering project that builds a star schema data warehouse from scratch. 
+Data Engineering project that builds an entire star schema data warehouse from scratch. 
 
 Python script builds the star schema data warehouse from scratch and completes the following:
 - Extracts data from several CSV files containing 5 years of FDIC public banking data (**CSV files located in the data folder**) from thousands of banks across the country.

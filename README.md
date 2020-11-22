@@ -9,9 +9,9 @@ Python script builds a star schema data warehouse from scratch by combining seve
 -Data is loaded from SQL Server into Power BI to visualize the data and compare banks over different time periods or search for details on a particular bank.  
 
  # Tech Stack:
--Programming languages:  Python, SQL.  Python packages used:  Pandas and SQL Alchemy
--DBMS:  Sql Server
--Visualization platform:  Power BI.  
+- Programming languages:  Python, SQL.  Python packages used:  Pandas and SQL Alchemy
+- DBMS:  Sql Server
+- Visualization platform:  Power BI.  
 
 Below is the finished star schema format once the new structure gets loaded into Power BI:
 

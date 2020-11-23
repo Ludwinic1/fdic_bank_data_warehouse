@@ -11,7 +11,7 @@ Python script builds the star schema data warehouse from scratch and completes t
 - Creates the foreign key constraints between the tables.  
 - Data is loaded from SQL Server into Power BI to visualize the data and compare banks over different time periods or search for details on a particular bank.  
 - **See the completed visualizations in Power BI:** 
-[Link to Power BI vizualizations](https://app.powerbi.com/view?r=eyJrIjoiMWFjNTg0NDktNTZiYi00YWI4LWE2MGEtY2ZjYzJmMmExOGM1IiwidCI6IjE4MDUyNDY3LTFjMmQtNGZjYy1iYjhlLWMxOWNmZDQ2YzAyZCIsImMiOjN9)
+[link to Power BI vizualizations](https://app.powerbi.com/view?r=eyJrIjoiMWFjNTg0NDktNTZiYi00YWI4LWE2MGEtY2ZjYzJmMmExOGM1IiwidCI6IjE4MDUyNDY3LTFjMmQtNGZjYy1iYjhlLWMxOWNmZDQ2YzAyZCIsImMiOjN9)
 
  # Tech Stack:
 - Programming languages:  Python and SQL.  Python packages/modules used:  Pandas and SQL Alchemy.

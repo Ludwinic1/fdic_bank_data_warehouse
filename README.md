@@ -37,7 +37,4 @@ Below is the finished star schema design once the data is loaded into Power BI:
 
 
 
-[test5](https://app.powerbi.com/view?r=eyJrIjoiMWFjNTg0NDktNTZiYi00YWI4LWE2MGEtY2ZjYzJmMmExOGM1IiwidCI6IjE4MDUyNDY3LTFjMmQtNGZjYy1iYjhlLWMxOWNmZDQ2YzAyZCIsImMiOjN9)
-
-
 

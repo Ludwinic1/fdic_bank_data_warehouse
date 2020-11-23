@@ -10,6 +10,8 @@ Python script builds the star schema data warehouse from scratch and completes t
 - Creates the primary keys for the dimension tables and the composite primary key for the fact table.
 - Creates the foreign key constraints between the tables.  
 - Data is loaded from SQL Server into Power BI to visualize the data and compare banks over different time periods or search for details on a particular bank.  
+- **See the visualizations in Power BI:** 
+[Link to Power BI vizualizations](https://app.powerbi.com/view?r=eyJrIjoiMWFjNTg0NDktNTZiYi00YWI4LWE2MGEtY2ZjYzJmMmExOGM1IiwidCI6IjE4MDUyNDY3LTFjMmQtNGZjYy1iYjhlLWMxOWNmZDQ2YzAyZCIsImMiOjN9)
 
  # Tech Stack:
 - Programming languages:  Python and SQL.  Python packages/modules used:  Pandas and SQL Alchemy.
@@ -32,11 +34,8 @@ Below is the finished star schema design once the data is loaded into Power BI:
 
 ![](/Star_Schema_Picture.PNG)
 
-https://app.powerbi.com/reportEmbed?reportId=f5b5efce-7f51-4aa7-a4c5-efa66ae91582&autoAuth=true&ctid=18052467-1c2d-4fcc-bb8e-c19cfd46c02d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9
 
 
-
-test4:
 
 [test5](https://app.powerbi.com/view?r=eyJrIjoiMWFjNTg0NDktNTZiYi00YWI4LWE2MGEtY2ZjYzJmMmExOGM1IiwidCI6IjE4MDUyNDY3LTFjMmQtNGZjYy1iYjhlLWMxOWNmZDQ2YzAyZCIsImMiOjN9)
 

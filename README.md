@@ -32,7 +32,7 @@ Below is the finished star schema design once the data is loaded into Power BI:
 
 ![](/Star_Schema_Picture.PNG)
 
-
+https://app.powerbi.com/reportEmbed?reportId=f5b5efce-7f51-4aa7-a4c5-efa66ae91582&autoAuth=true&ctid=18052467-1c2d-4fcc-bb8e-c19cfd46c02d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZy1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9
 
 
 
